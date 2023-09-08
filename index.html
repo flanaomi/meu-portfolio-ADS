@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Sakura Travel</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <img src="./src/sakuraLogo.png" alt="Logo Sakura" id="logoSakura">
+          <a class="navbar-brand" href="#">Sakura Travel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destinos">Destinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gastronomia">Gastronomia</a>
+              </li>            
+                         
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+     <header >
+        <div id="carouselExampleCaptions" class="carousel slide ">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" id="capa">
+              <div class="carousel-item active">
+                <img src="./src/Capa/Japao.jpeg" class="d-block w-100 h-50" alt="...">
+                
+              </div>
+              <div class="carousel-item">
+                <img src="./src/Capa/Japao1.JPG" class="d-block w-100 h-50" alt="...">
+                
+              </div>
+              <div class="carousel-item">
+                <img src="./src/Capa/Japao2.JPG" class="d-block w-100 h-50" alt="...">
+               
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+     </header>
+
+     <section id="destinos" class="destinos" >
+        <h1 class="title">Destinos</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+            <div class="sizecard col">
+              <div class="card h-100 w-75">
+                <div class="imagemDestino">
+                    <img src="./src/destinos/Tokyo.jpeg" class="card-img-top h-100" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Tokyo</h5>
+                  <p class="card-text">A movimentada capital do Japão, combina o estilo ultramoderno com o tradicional, desde arranha-céus iluminados por neon a templos históricos. .</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Google</small>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="sizecard col">
+              <div class="card h-100 w-75">
+                <div class="imagemDestino">
+                    <img src="./src/destinos/Hiroshima1.jpeg" class="card-img-top h-100" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Hiroshima</h5>
+                  <p class="card-text">Moderna cidade da ilha de Honshu, no Japão, foi amplamente destruída por uma bomba atômica na Segunda Guerra Mundial. Hoje, o Parque Memorial da Paz de Hiroshima relembra essa tragédia de 1945 e abriga as ruínas do Domo Genbaku, um dos poucos prédios que ficaram de pé perto do ponto da explosão..</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Google</small>
+                  </div>
+              </div>
+            </div>
+            <div class="sizecard col">
+                <div class="card h-100 w-75">
+                  <div class="imagemDestino">
+                      <img src="./src/destinos/Quioto.jpeg" class="card-img-top h-100" alt="...">
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Google</small>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Quioto</h5>
+                    <p class="card-text">A antiga capital do Japão, é uma cidade da ilha de Honshu, famosa por seus vários templos clássicos budistas, jardins, palácios imperiais, santuários xintoístas e casas de madeira tradicionais.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Google</small>
+                  </div>
+                </div>
+            </div>
+            <div class="sizecard col">
+              <div class="card h-100 w-75">
+                <div class="imagemDestino">
+                    <img src="./src/destinos/Osaka1.jpeg" class="card-img-top h-100" alt="...">
+                </div>                
+                <div class="card-body">
+                  <h5 class="card-title">Osaka</h5>
+                  <p class="card-text">É uma grande cidade portuária e um centro comercial na ilha japonesa de Honshu. Ela é conhecida pela arquitetura moderna, pela vida noturna e pela comida de rua.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Google</small>
+                  </div>
+              </div>
+            </div>
+            <div class="sizecard col">
+                <div class="card h-100 w-75">
+                  <div class="imagemDestino">
+                      <img src="./src/destinos/Shirakawa2.jpeg" class="card-img-top h-100" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Shirakawago</h5>
+                    <p class="card-text">É uma vila localizada no distrito de Ōno, província de Gifu, Japão. É mais conhecido por ser o local de Shirakawa-gō, uma pequena vila tradicional que apresenta um estilo de construção conhecido como gasshō-zukuri. Juntamente com Gokayama em Nanto, Toyama, é um dos Patrimônios Mundiais da UNESCO.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Wikipedia</small>
+                  </div>
+                </div>
+              </div>
+              <div class="sizecard col">
+                <div class="card h-100 w-75">
+                  <div class="imagemDestino">
+                      <img src="./src/destinos/Nara.jpg" class="card-img-top h-100" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Nara</h5>
+                    <p class="card-text">A cidade tem templos e artes que remetem ao século 8, quando era a capital do Japão. Animais rugem no parque Nara, local do templo Tōdai-ji.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Google</small>
+                  </div>
+                </div>
+              </div>
+          </div>
+     </section>
+
+     <section id="gastronomia" class="gastronomia" >
+        <h1 class="title">Gastronomia</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+            <div class="sizecard col">
+              <div class="card h-100 w-75">
+                <div class="imagemDestino">
+                    <img src="./src/comidas/gydon.jpeg" class="card-img-top h-100" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Gydon</h5>
+                  <p class="card-text">Té um prato japonês que consiste em uma tigela de arroz coberta com carne bovina e cebola cozidos em um molho levemente adocicado feito de dashi, shoyu e mirin.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Wikipedia</small>
+                  </div>
+              </div>
+            </div>
+            <div class="sizecard col">
+              <div class="card h-100 w-75">
+                <div class="imagemDestino">
+                    <img src="./src/comidas/Lamen.jpeg" class="card-img-top h-100" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Lamen</h5>
+                  <p class="card-text">Um prato de lámen normalmente é composto por um tipo de macarrão chinês, uma sopa com caldo à base de ossos de porco, peixe ou frango, e temperados com uma base tarê que dá sabor ao caldo base, para a confecção da montagem do prato, e os adicionais podem variar dependendo da região.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Wikipedia</small>
+                  </div>
+              </div>
+            </div>
+            <div class="sizecard col">
+                <div class="card h-100 w-75">
+                  <div class="imagemDestino">
+                      <img src="./src/comidas/sushi.jpeg" class="card-img-top h-100" alt="...">
+                  </div>
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Sushi</h5>
+                    <p class="card-text">É um prato da culinária japonesa que possui origem numa antiga técnica de conservação da carne de peixe em arroz avinagrado. O sushi, na forma em que é conhecido atualmente, tem cerca de 200 anos; inicialmente, era vendido em barracas, como comida de rua, numa espécie de fast food.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Wikipedia</small>
+                  </div>
+                </div>
+            </div>
+            <div class="sizecard col">
+              <div class="card h-100 w-75">
+                <div class="imagemDestino">
+                    <img src="./src/comidas/takoyaki.jpeg" class="card-img-top h-100" alt="...">
+                </div>                
+                <div class="card-body">
+                  <h5 class="card-title">Takoyaki</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Google</small>
+                  </div>
+              </div>
+            </div>
+            <div class="sizecard col">
+                <div class="card h-100 w-75">
+                  <div class="imagemDestino">
+                      <img src="./src/comidas/udon.jpeg" class="card-img-top h-100" alt="udon">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Udon</h5>
+                    <p class="card-text">É um tipo de macarrão grosso feito de farinha, popular na culinária japonesa. Udon é servido normalmente como sopa, em caldo quente à base de dashi, shoyu e mirin. Sobre o udon básico, são acrescentados um ou mais ingredientes, e estes ingredientes dão origem a vários tipos de udon.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Wikipedia</small>
+                  </div>
+                </div>
+              </div>
+              <div class="sizecard col">
+                <div class="card h-100 w-75">
+                  <div class="imagemDestino">
+                      <img src="./src/comidas/yakiniku.jpeg" class="card-img-top h-100" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Yakiniku</h5>
+                    <p class="card-text">Significa "carne grelhada", é um termo japonês que, em seu sentido mais amplo, refere-se a pratos com carne grelhada. O "yakiniku" originalmente se referia ao "churrasco" que foi dado por um escritor japonês, "Robun Kanagaki" em seu livro, "Seiyo Ryoritsu", em 1872.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-body-secondary">Fonte: Wikipedia</small>
+                  </div>
+                </div>
+              </div>
+          </div>
+     </section>
+     <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="https://www.facebook.com/flanaomi" target="_blank" class="nav-link px-2 text-body-secondary">Facebook</a></li>
+          <li class="nav-item"><a href="https://www.instagram.com/flanaomi/" target="_blank" class="nav-link px-2 text-body-secondary">Instagram</a></li>
+          <li class="nav-item"><a href="https://github.com/flanaomi" target="_blank" class="nav-link px-2 text-body-secondary">GitHub</a></li>
+          <li class="nav-item"><a href="https://www.linkedin.com/in/flanaomi/" target="_blank" class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+      
+        </ul>
+        <p class="text-center text-body-secondary">Desenvolvido por Flávia Naomi <br>
+            <br> Desenvolvimento FrontEnd - Atividade Prática 4
+            <br> Faculdade Descomplica - Analise e Desenvolvimento de Sistemas
+        </p>
+      </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  <a href="https://www.freepik.es/search?format=search&last_filter=query&last_value=sakura&query=sakura&type=icon" class="referencia">Icone de Vitaly Gorbachev</a> 
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+
+#logoSakura{
+    width: 40px;
+}
+
+#capa {
+    width: auto;
+    height: 500px;
+}
+
+footer .referencia{
+    font-size: 15px;
+}
+
+#destinos {
+    margin: 50px ;
+   }
+
+.sizecard{
+    min-width: 200px;
+}
+
+.imagemDestino {
+    width: auto;
+    height: 300px;
+    
+}
+
+#gastronomia {
+    margin: 100px ;
+   }
